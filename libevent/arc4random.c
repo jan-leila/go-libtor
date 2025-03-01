@@ -464,7 +464,7 @@ arc4random(void)
 #endif
 
 ARC4RANDOM_EXPORT void
-arc4random_buf(void *buf_, size_t n)
+arc4random_buf_old(void *buf_, size_t n)
 {
 	unsigned char *buf = buf_;
 	ARC4_LOCK_();
