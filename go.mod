@@ -1,4 +1,4 @@
-module github.com/ipsn/go-libtor
+module github.com/jan-leila/go-libtor
 
 go 1.12
 
